@@ -46,7 +46,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroBillboardScroll
-          title="Exceptional Dining Awaits"
+          title="Insane Dining Awaits"
           description="Experience culinary excellence in an atmosphere of refined elegance and warm hospitality"
           tag="Fine Dining"
           tagIcon={ChefHat}
