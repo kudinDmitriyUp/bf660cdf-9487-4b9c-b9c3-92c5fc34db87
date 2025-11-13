@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
@@ -6,7 +6,7 @@ import AboutFeature from '@/components/sections/about/AboutFeature';
 import FeatureCardFour from '@/components/sections/feature/FeatureCardFour';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
-import MetricCardOne from '@/components/sections/metric/MetricCardOne';
+import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
@@ -303,8 +303,7 @@ export default function Home() {
               company: "Local Reviewer",
               rating: 5,
               imageSrc: "https://pixabay.com/get/g455fcce82271b2356764e573ed4fafed57515914126375d1425f78bce6478a68400899bb2bef8b52a11cd1d5292d6a7e3c3b5236481a325bfc65ffbfe549047f_1280.jpg",
-              imageAlt: "Sarah Johnson dining experience",
-              testimonial: "An absolutely wonderful dining experience! Every dish was perfectly prepared and the service was exceptional. The ambiance is elegant yet comfortable."
+              imageAlt: "Sarah Johnson dining experience"
             },
             {
               id: "2",
@@ -313,8 +312,7 @@ export default function Home() {
               company: "Corporate Client",
               rating: 5,
               imageSrc: "https://pixabay.com/get/ga85f36b0fc3f3b572b89e1c5a102778171438ed066a1cd1da5785b3e9eb04ee397e7de1e3a805806f401ce232533839a7d255de690b2445fe7ca09fa25a7930e_1280.jpg",
-              imageAlt: "Michael Chen restaurant review",
-              testimonial: "Perfect venue for our business dinner. The chef's table experience was remarkable and the wine pairings were spot on. Highly recommended!"
+              imageAlt: "Michael Chen restaurant review"
             },
             {
               id: "3",
@@ -323,8 +321,7 @@ export default function Home() {
               company: "Special Occasion",
               rating: 5,
               imageSrc: "https://pixabay.com/get/g149e70d81ec9a83ae7b12bf61049b603b5d0e6ccbe948c01201ac294d4b79edaa375ea1e0e5753c58da887703ba19510e251ca2033317516b36be190986897ea_1280.jpg",
-              imageAlt: "Emily Rodriguez anniversary dinner",
-              testimonial: "Our anniversary dinner at Bella Vista was magical. The attention to detail and personalized service made it a night to remember forever."
+              imageAlt: "Emily Rodriguez anniversary dinner"
             },
             {
               id: "4",
@@ -333,8 +330,7 @@ export default function Home() {
               company: "Private Events",
               rating: 5,
               imageSrc: "https://pixabay.com/get/gb310c7b7e69b5aae7c9212eeccb20cb5a91aa7f026df9eb093e62305a923d4b8171f6371092a97376352e84f082168c3bc07fc8b790eaa2911592902d65c063f_1280.jpg",
-              imageAlt: "David Thompson wedding celebration",
-              testimonial: "The private dining room was perfect for our wedding reception. Every guest raved about the food and the staff went above and beyond."
+              imageAlt: "David Thompson wedding celebration"
             }
           ]}
         />
